@@ -1,17 +1,17 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --cinza-secundario: #d6cece;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #445381;
     --fonte-principal: 'Inter';
-    --botao-azul-hover: #3c92fa;
+    --botao-azul-hover: #7445e4;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -54,12 +54,12 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--cinza-secundario);
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
 }
 
